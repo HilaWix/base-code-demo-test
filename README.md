@@ -1,10 +1,52 @@
-# Base Code Demo
+# Retro Arcade 44
 
-A disposable demo project for testing the Base Code flow: connecting a repository, making a change, previewing it, and opening a pull request.
+A small playable React app built specifically as a safe Basecode test repo.
 
-Plain Vite + React, generated from the official `create-vite` React template. No SDKs, backend, auth, database, secrets, or external services.
+Instead of testing Basecode against a throwaway Hello World, this project has enough real app behavior to make repo import, code understanding, edits, previews, branches, and pull requests meaningful.
 
-```
+## Games
+
+- **Snake 44**: keyboard and touch controls, scoring, collision logic, and a local high score.
+- **Memory Match**: shuffled pairs, turn tracking, match state, and reset logic.
+- **Whack-a-Pixel**: a 20-second reflex game with timers and randomized targets.
+
+## Stack
+
+- React
+- Vite
+- Plain CSS
+- No backend
+- No auth
+- No database
+- No secrets
+- No external services
+
+## Run locally
+
+```bash
 npm install
 npm run dev
 ```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Good Basecode experiments
+
+Try these as separate branches or prompts:
+
+1. Add Easy, Normal, and Chaos difficulty modes to Snake 44.
+2. Add a pause button and keyboard shortcut to Snake 44.
+3. Add a fourth arcade game without changing the existing three.
+4. Create a shared local leaderboard across all games.
+5. Add a CRT scanline toggle in the header.
+6. Make the game picker work as URL routes.
+7. Refactor the games into a reusable shared game-shell component.
+8. Improve mobile controls and accessibility.
+9. Change the visual theme while preserving all game logic.
+10. Ask Basecode to explain the architecture before changing anything.
+
+The repo is intentionally dependency-light so failures are more likely to reveal something about the coding workflow than about infrastructure.
