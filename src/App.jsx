@@ -3,7 +3,7 @@ import './App.css'
 
 const cards = [
   {
-    title: 'Connect',
+    title: 'Connect a repo',
     body: 'Link this repository in Base Code and pick the branch to start from.',
   },
   {
