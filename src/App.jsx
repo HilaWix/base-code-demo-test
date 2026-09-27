@@ -37,7 +37,7 @@ function App() {
     <main className="arcade-shell">
       <header className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">BASECODE TEST LAB // INSERT COIN</p>
+          <p className="eyebrow">BASE CODE LAB // INSERT COIN</p>
           <h1>Retro Arcade <span>44</span></h1>
           <p className="hero-description">
             A tiny playable React app built to give Basecode something more interesting
@@ -90,8 +90,8 @@ function App() {
       </section>
 
       <footer>
-        <p>Built as a safe playground for Basecode repo imports, edits, branches, previews, and PRs.</p>
-        <code>HilaWix/base-code-demo-test</code>
+        <p>Retro Arcade 44 · A tiny playground for testing code workflows.</p>
+        <code>READY PLAYER ONE</code>
       </footer>
     </main>
   )
