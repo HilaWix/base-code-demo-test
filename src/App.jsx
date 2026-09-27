@@ -40,8 +40,7 @@ function App() {
           <p className="eyebrow">BASE CODE LAB // INSERT COIN</p>
           <h1>Retro Arcade <span>44</span></h1>
           <p className="hero-description">
-            A tiny playable React app built to give Basecode something more interesting
-            than a Hello World.
+            A tiny playable React arcade built for testing, tinkering, and shipping changes.
           </p>
         </div>
         <div className="status-panel" aria-label="Demo app status">
