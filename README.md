@@ -1,8 +1,8 @@
 # Retro Arcade 44
 
-A small playable React app built specifically as a safe Basecode test repo.
+A small playable React app built as a safe, disposable test project for Base Code workflows.
 
-Instead of testing Basecode against a throwaway Hello World, this project has enough real app behavior to make repo import, code understanding, edits, previews, branches, and pull requests meaningful.
+Instead of testing Base Code against a throwaway Hello World, this project has enough real app behavior to make repo import, code understanding, edits, previews, branches, and pull requests meaningful.
 
 ## Games
 
@@ -34,7 +34,7 @@ npm run dev
 npm run build
 ```
 
-## Good Basecode experiments
+## Good Base Code experiments
 
 Try these as separate branches or prompts:
 
@@ -47,6 +47,6 @@ Try these as separate branches or prompts:
 7. Refactor the games into a reusable shared game-shell component.
 8. Improve mobile controls and accessibility.
 9. Change the visual theme while preserving all game logic.
-10. Ask Basecode to explain the architecture before changing anything.
+10. Ask Base Code to explain the architecture before changing anything.
 
 The repo is intentionally dependency-light so failures are more likely to reveal something about the coding workflow than about infrastructure.
