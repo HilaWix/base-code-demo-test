@@ -17,7 +17,7 @@ function App() {
 
   return (
     <main className="demo">
-      <h1>Base Code Demo</h1>
+      <h1>Base Code Docs Demo</h1>
       <p className="intro">
         A small disposable project for testing the Base Code flow against the
         documentation.
