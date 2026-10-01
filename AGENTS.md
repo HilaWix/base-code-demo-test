@@ -5,7 +5,7 @@
 
 ## Run
 - `docker compose -f docker-compose.base44.yml up -d` — starts Vite dev server (live reload) on host port 3000.
-- The compose service runs `npm install` then `vite dev` from the bind-mounted source, so edits hot-reload without rebuilds.
+- The compose service runs `npm ci` then `vite dev` from the bind-mounted source, so edits hot-reload without rebuilds.
 - Vite is bound to 0.0.0.0 and `__VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS` is passed from the sandbox env so the preview origin is allowed.
 
 ## Verify
