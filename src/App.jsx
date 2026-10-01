@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { format } from 'date-fns'
 import './App.css'
 import Snake from './games/Snake'
 import MemoryMatch from './games/MemoryMatch'
@@ -32,6 +33,7 @@ function App() {
   const [activeGame, setActiveGame] = useState('snake')
   const selected = games.find((game) => game.id === activeGame)
   const Game = selected.component
+  const today = new Date()
 
   return (
     <main className="arcade-shell">
@@ -90,6 +92,7 @@ function App() {
 
       <footer>
         <p>Retro Arcade 44 · A tiny playground for testing code workflows.</p>
+        <time dateTime={format(today, 'yyyy-MM-dd')}>{format(today, 'MMM d, yyyy')}</time>
         <code>READY PLAYER ONE</code>
       </footer>
     </main>
