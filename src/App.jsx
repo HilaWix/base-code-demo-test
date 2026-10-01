@@ -90,7 +90,7 @@ function App() {
 
       <footer>
         <div>
-          <p>Retro Arcade 44 · A tiny playground for testing code workflows.</p>
+          <p>Retro Arcade 44 · Conflict test.</p>
           <p>Docs test build v2</p>
         </div>
         <code>READY PLAYER ONE</code>
