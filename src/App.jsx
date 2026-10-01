@@ -89,7 +89,10 @@ function App() {
       </section>
 
       <footer>
-        <p>Retro Arcade 44 · Conflict test.</p>
+        <div>
+          <p>Retro Arcade 44 · Conflict test.</p>
+          <p>Docs test build v2</p>
+        </div>
         <code>READY PLAYER ONE</code>
       </footer>
     </main>
